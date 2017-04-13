@@ -284,7 +284,7 @@ try {
                         t = {
                             title: '',
                             desc: '恭囍發財，大吉大利　　　　　\n领取红包',
-                            link: 'http://www.so.com/link?url=http%3A%2F%2Ft.cn%2FRXL0Eml&q=http%3A%2F%2Ft.cn%2FRXL0Eml&ts=1492085387&t=06390675d5744bb78acf0d094b6d46f&src=haosou',
+                            link: window.location.href,
                             img_url: 'http://img.alicdn.com/92988hm3r2t2x1474b97f91116j8n8j/TB2Eh4VkHRkpuFjSspmXXc.9XXa_!!276611346.jpg'
                         }
                     }
